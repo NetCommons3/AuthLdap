@@ -1,4 +1,4 @@
-AuthLDAP
+AuthLdap
 ====
 
 [![Build Status](https://travis-ci.org/NetCommons3/AuthLDAP.png?branch=master)](https://travis-ci.org/NetCommons3/AuthLDAP)

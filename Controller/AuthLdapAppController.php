@@ -2,6 +2,6 @@
 
 App::uses('AppController', 'Controller');
 
-class AuthLDAPAppController extends AppController {
+class AuthLdapAppController extends AppController {
 
 }

@@ -1,5 +1,5 @@
 <?php
-class AllAuthLDAPTest extends CakeTestSuite {
+class AllAuthLdapTest extends CakeTestSuite {
 
 	public static function suite() {
 		$plugin = preg_replace('/^All([\w]+)Test$/', '$1', __CLASS__);

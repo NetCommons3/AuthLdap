@@ -1,0 +1,46 @@
+{
+    "name":        "netcommons/auth-ldap",
+    "description": "LDAP Auth Plugin for CakePHP",
+    "type":        "cakephp-plugin",
+    "keywords":    ["cakephp", "auth-ldap"],
+    "homepage":    "http://www.netcommons.org/",
+    "license":     "NetCommons License",
+    "authors": [
+        {
+            "name":     "NetCommons Community",
+            "homepage": "https://github.com/NetCommons3/AuthLDAP/graphs/contributors"
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "app/Plugin/{$name}": [
+                "cakephp/debug_kit",
+                "cakedc/migrations",
+                "mustangostang/spyc",
+                "slywalker/boost_cake",
+                "chronon/mobile_detect"
+            ]
+        }
+    },
+    "require": {
+        "cakephp/cakephp":         "~2.4",
+        "cakephp/debug_kit":       "~2.2",
+        "cakedc/migrations":       "~2.2",
+        "chronon/mobile_detect":   "*",
+        "slywalker/boost_cake":    "*",
+        "twbs/bootstrap":          "~3.1",
+        "components/jquery":       "~2.1"
+    },
+    "require-dev": {
+        "netcommons/auth":         "dev-master",
+        "netcommons/users":        "dev-master",
+        "satooshi/php-coveralls":  "dev-master"
+    },
+    "bin": [
+        "lib/Cake/Console/cake"
+    ],
+    "config": {
+        "vendor-dir": "vendors",
+        "process-timeout": 3000
+    }
+}

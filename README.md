@@ -1,8 +1,8 @@
 AuthLdap
 ====
 
-[![Build Status](https://travis-ci.org/NetCommons3/AuthLDAP.png?branch=master)](https://travis-ci.org/NetCommons3/AuthLDAP)
-[![Coverage Status](https://coveralls.io/repos/NetCommons3/AuthLDAP/badge.png?branch=master)](https://coveralls.io/r/NetCommons3/AuthLDAP?branch=master)
+[![Build Status](https://travis-ci.org/NetCommons3/AuthLdap.png?branch=master)](https://travis-ci.org/NetCommons3/AuthLdap)
+[![Coverage Status](https://coveralls.io/repos/NetCommons3/AuthLdap/badge.png?branch=master)](https://coveralls.io/r/NetCommons3/AuthLdap?branch=master)
 
 | dependencies | status |
 | ------------ | ------ |

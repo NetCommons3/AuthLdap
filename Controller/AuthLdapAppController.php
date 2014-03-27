@@ -1,7 +1,6 @@
 <?php
 
-App::uses('AppController', 'Controller');
+App::uses('AuthController', 'Auth.Controller');
 
-class AuthLdapAppController extends AppController {
-
+class AuthLdapAppController extends AuthController {
 }

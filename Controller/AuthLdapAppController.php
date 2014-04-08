@@ -10,7 +10,9 @@ class AuthLdapAppController extends AuthController {
  * @return string Authentication adapter name
  * @author Jun Nishikawa <topaz2@m0n0m0n0.com>
  **/
-	public function getAuthenticator() {
-		return 'Ldap';
+	protected static function _getAuthenticator() {
+		return implode('.', array(
+			strtr(__CLASS__, array('AppController' => '')),
+			'Ldap'));
 	}
 }
